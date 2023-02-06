@@ -29,7 +29,7 @@ except:
 def Subscraption():
   key1=open('/data/data/com.termux/files/usr/bin/.zxr-cov', 'r').read()
   clear()
-  r1=requests.get("https://pastebin.com/7A9RKwxd").text
+  r1=requests.get("https://pastebin.com/av0Du0LZ").text
   if key1 in r1:
     os.system('clear')
   else:
