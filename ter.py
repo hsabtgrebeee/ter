@@ -324,9 +324,11 @@ def menu(my_name,my_id):
 ├── {H}{sekarang}""" )
 	bo = random.choice([m,k,h,b,u,p])
 	cetak(nel(f' ﻝﺎﺧﺩﻹﺍ ﺔﻤﺋﺎﻗ'))
-	print(f'''{P}├── 01.ﺓﺩﺪﻌﺘﻣ ﺕﺎﻳﺪﻳﺍ
-├── 00.  ﺝﻭﺮﺧ  ''')
-	___regiya___ridwan = input('\n├──  ﻝﺎﺧﺩﻹﺍ : ')
+	print(f'''{P}
+	print(f'''{P}├── 01. ﺩﺮﻔﻣ ﻱﺪﻳﺍ {P} ({H}on{P})
+├── 02. ﺓﺩﺪﻌﺘﻣ ﺕﺎﻳﺪﻳﺍ{
+├── 00. exit''')
+	___regiya___ridwan = input('\n├──  ﻝﺎﺧﺩﻹﺍ  : ')
 	if ___regiya___ridwan in ['1']:
 		publikx()
 	elif ___regiya___ridwan in ['2']:
