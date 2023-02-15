@@ -324,7 +324,6 @@ def menu(my_name,my_id):
 ├── {H}{sekarang}""" )
 	bo = random.choice([m,k,h,b,u,p])
 	cetak(nel(f' ﻝﺎﺧﺩﻹﺍ ﺔﻤﺋﺎﻗ'))
-	print(f'''{P}
 	print(f'''{P}├── 01. ﺩﺮﻔﻣ ﻱﺪﻳﺍ {P} ({H}on{P})
 ├── 02. ﺓﺩﺪﻌﺘﻣ ﺕﺎﻳﺪﻳﺍ{
 ├── 00. exit''')
