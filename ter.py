@@ -324,8 +324,22 @@ def menu(my_name,my_id):
 ├── {H}{sekarang}""" )
 	bo = random.choice([m,k,h,b,u,p])
 	cetak(nel(f' ﻝﺎﺧﺩﻹﺍ ﺔﻤﺋﺎﻗ'))
-	print(f'''{P}├── 01. ﺩﺮﻔﻣ ﻱﺪﻳﺍ {P} ({H}on{P})
-├── 02. ﺓﺩﺪﻌﺘﻣ ﺕﺎﻳﺪﻳﺍ{
+print(f'''{P}├── 01. ﺩﺮﻔﻣ ﻱﺪﻳﺍ {P} ({H}on{P})
+├── 02. ﺓﺩﺪﻌﺘﻣ ﺕﺎﻳﺪﻳﺍ{P} ({H}ﻞﻀﻓﻻﺍ{P})
+├── 03. دﺎﻳﺯ ةﺍﺩﺍ{P} ({H}on{P})
+├── 04. crack grup V1{P} ({H}on{P})
+├── 05. crack grup V2{P} ({B}on{P})
+├── 06. clone file{P} ({M}off{P})
+├── 07. clone nomor{P} ({H}on{P})
+├── 08. clone id old{P} ({H}on{P})
+├── 09. clone username ({H}on{P})
+├── 10. clone sekota ({H}on{P})
+├── 11. setting user-agent
+├── 12. informasi author script
+├── 13. informasi script
+├── 14. cek results
+├── 15. cek opsi cp
+├── 16. bot share
 ├── 00. exit''')
 	___regiya___ridwan = input('\n├──  ﻝﺎﺧﺩﻹﺍ  : ')
 	if ___regiya___ridwan in ['1']:
