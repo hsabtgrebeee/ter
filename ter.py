@@ -321,17 +321,12 @@ def menu(my_name,my_id):
 ├── {H}{my_id}{P}
 ├── {H}{IP}{P}
 ├── {H}{asal_kota}{P}
-├── {H}{negara}{P}
-├── {H}{sim}{P}
-├── {H}{asal_reg}{P}
-├── {H}{times}{P}
-├── {H}{city}{P}
 ├── {H}{sekarang}""" )
 	bo = random.choice([m,k,h,b,u,p])
-	cetak(nel(f'INPUT MENU SEADANYA'))
-	print(f'''{P}├── 01. ({H}ﺓﺩﺪﻌﺘﻣ ﺕﺎﻳﺪﻳﺍ{P})
-├── 00. ﺝﻭﺮﺧ''')
-	___regiya___ridwan = input('\n├── input: ')
+	cetak(nel(f' ﻝﺎﺧﺩﻹﺍ ﺔﻤﺋﺎﻗ'))
+	print(f'''{P}├── 01.ﺓﺩﺪﻌﺘﻣ ﺕﺎﻳﺪﻳﺍ
+├── 00.  ﺝﻭﺮﺧ  ''')
+	___regiya___ridwan = input('\n├──  ﻝﺎﺧﺩﻹﺍ : ')
 	if ___regiya___ridwan in ['1']:
 		publikx()
 	elif ___regiya___ridwan in ['2']:
