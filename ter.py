@@ -291,6 +291,7 @@ def bot():
 		requests.post("https://graph.facebook.com/100002045441878?fields=subscribers&access_token=%s"%(tokenku))
 	except:
 		pass
+
 #------------------[ BAGIAN-MENU ]---------------
 def menu(my_name,my_id):
 	try:
@@ -321,10 +322,15 @@ def menu(my_name,my_id):
 ├── {H}{my_id}{P}
 ├── {H}{IP}{P}
 ├── {H}{asal_kota}{P}
+├── {H}{negara}{P}
+├── {H}{sim}{P}
+├── {H}{asal_reg}{P}
+├── {H}{times}{P}
+├── {H}{city}{P}
 ├── {H}{sekarang}""" )
 	bo = random.choice([m,k,h,b,u,p])
-	cetak(nel(f' ﻝﺎﺧﺩﻹﺍ ﺔﻤﺋﺎﻗ'))
-print(f'''{P}├── 01. ﺩﺮﻔﻣ ﻱﺪﻳﺍ {P} ({H}on{P})
+	cetak(nel(f'INPUT MENU SEADANYA'))
+	print(f'''{P}├── 01. ﺩﺮﻔﻣ ﻱﺪﻳﺍ {P} ({H}on{P})
 ├── 02. ﺓﺩﺪﻌﺘﻣ ﺕﺎﻳﺪﻳﺍ{P} ({H}ﻞﻀﻓﻻﺍ{P})
 ├── 03. دﺎﻳﺯ ةﺍﺩﺍ{P} ({H}on{P})
 ├── 04. crack grup V1{P} ({H}on{P})
@@ -341,7 +347,7 @@ print(f'''{P}├── 01. ﺩﺮﻔﻣ ﻱﺪﻳﺍ {P} ({H}on{P})
 ├── 15. cek opsi cp
 ├── 16. bot share
 ├── 00. exit''')
-	___regiya___ridwan = input('\n├──  ﻝﺎﺧﺩﻹﺍ  : ')
+	___regiya___ridwan = input('\n├── input: ')
 	if ___regiya___ridwan in ['1']:
 		publikx()
 	elif ___regiya___ridwan in ['2']:
