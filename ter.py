@@ -321,31 +321,11 @@ def menu(my_name,my_id):
 	print(f"""{P}├── {H}{my_name}{P}
 ├── {H}{my_id}{P}
 ├── {H}{IP}{P}
-├── {H}{asal_kota}{P}
-├── {H}{negara}{P}
-├── {H}{sim}{P}
-├── {H}{asal_reg}{P}
-├── {H}{times}{P}
-├── {H}{city}{P}
 ├── {H}{sekarang}""" )
 	bo = random.choice([m,k,h,b,u,p])
 	cetak(nel(f'INPUT MENU SEADANYA'))
 	print(f'''{P}├── 01. ﺩﺮﻔﻣ ﻱﺪﻳﺍ {P} ({H}on{P})
 ├── 02. ﺓﺩﺪﻌﺘﻣ ﺕﺎﻳﺪﻳﺍ{P} ({H}ﻞﻀﻓﻻﺍ{P})
-├── 03. دﺎﻳﺯ ةﺍﺩﺍ{P} ({H}on{P})
-├── 04. crack grup V1{P} ({H}on{P})
-├── 05. crack grup V2{P} ({B}on{P})
-├── 06. clone file{P} ({M}off{P})
-├── 07. clone nomor{P} ({H}on{P})
-├── 08. clone id old{P} ({H}on{P})
-├── 09. clone username ({H}on{P})
-├── 10. clone sekota ({H}on{P})
-├── 11. setting user-agent
-├── 12. informasi author script
-├── 13. informasi script
-├── 14. cek results
-├── 15. cek opsi cp
-├── 16. bot share
 ├── 00. exit''')
 	___regiya___ridwan = input('\n├── input: ')
 	if ___regiya___ridwan in ['1']:
@@ -586,7 +566,7 @@ def massalx():
 	except IOError:
 		exit()
 	try:
-		jum = int(input(f'├── ﻲﺼﻗﻻﺍ ﺪﺤﻟﺍ ؟ﺕﺎﻳﺪﻳﻻﺍ ﺩﺪﻋ ﺩﺪﺣ {P}[{M}100{P}] :{H} '))
+		jum = int(input(f'├── ﺕﺎﻳﺪﻳﻻﺍ ﺩﺪﻋ  {P}[{M}100{P}] :{H} '))
 	except ValueError:
 		print(' Masukkan Angka, Malah Huruff ')
 		exit()
@@ -597,7 +577,7 @@ def massalx():
 	yz = 0
 	for met in range(jum):
 		yz+=1
-		kl = input(f'{P}├── Masukkan Id  Ke '+str(yz)+' : ')
+		kl = input(f'{P}├── ﻱﺪﻳﺍ   '+str(yz)+' : ')
 		uid.append(kl)
 	for userr in uid:
 		try:
@@ -806,9 +786,9 @@ def filex():
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
 	#print(f'{P}_________________________________________')
-	print(f'{P}├── 1ﺕﺎﻳﺪﻳﻻﺍ ﻉﻮﻧ {M}ﻢﻳﺪﻗ {P}({M}ﻞﻀﻔﻣ ﺮﻴﻏ{P})')
-	print(f'{P}├── 2ﺕﺎﻳﺪﻳﻻﺍ ﻉﻮﻧ {H}new {P}({H}ﻝﻮﻘﻌﻣ{P})')
-	print(f'{P}├── 3ﺕﺎﻳﺪﻳﻻﺍ ﻉﻮﻧ {H}{P} ﻲﺋﺍﻮﺸﻋ({H}ﻞﻀﻓﻻﺍ{P})')
+	print(f'{P}├── 1 ﻢﻳﺪﻗ {P}({M}ﻞﻀﻔﻣ ﺮﻴﻏ{P})')
+	print(f'{P}├── 2 new {P}({H}ﻝﻮﻘﻌﻣ{P})')
+	print(f'{P}├── 3= ﻲﺋﺍﻮﺸﻋ({H}ﻞﻀﻓﻻﺍ{P})')
 	hu = input('├── pilih : ')
 	if hu in ['1','01']:
 		for tua in sorted(id):
@@ -831,8 +811,8 @@ def setting():
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
 	#print(f'{P}________________________________________')
-	print(f'{P}├── mobile.{H}facebook.com{P} ({H}ﻞﻀﻔﻣ ﺮﻴﻏ{P})')
-	print(f'{P}├── mbasic.{K}facebook.com{P} ({B}ﻞﻀﻓﻻﺍ )')
+	print(f'{P}├── mobile.{H}facebook.com{P} ({B}ﻞﻀﻔﻣ ﺮﻴﻏ )')
+	print(f'{P}├── mbasic.{K}facebook.com{P} ({H}ﻞﻀﻓﻻﺍ{P})')
 	hc = input(f'{P}├── pilih : ')
 	if hc in ['1','01']:
 		method.append('mobile')
@@ -855,8 +835,8 @@ def setting():
 	pwplus=input('├── ﺔﻳﻭﺪﻳ ﺮﺳ ﺕﺎﻤﻠﻛ ﺭﺎﻴﺘﺧﺍ ( y/t ) ')
 	if pwplus in ['y','Y']:
 		pwpluss.append('ya')
-		cetak(nel('[[cyan]•[white]] ﻝﺎﺜﻣ \n[[cyan]•[white]] Contoh :[green] 660660,770770,123456654321,123456[white] '))
-		pwku=input('>> ﺎﻨﻫ ﺮﺳ ﺕﺎﻤﻠﻛ ﻂﺣ : ')
+		cetak(nel(' \n[[cyan]•[white]] Contoh :[green] 660660,770770,123456654321,123456[white] '))
+		pwku=input('>>  ﺰﻣﺭ ﻂﺣ : ')
 		pwkuh=pwku.split(',')
 		for xpw in pwkuh:
 			pwnya.append(xpw)
