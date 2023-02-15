@@ -323,8 +323,8 @@ def menu(my_name,my_id):
 ├── {H}{IP}{P}
 ├── {H}{sekarang}""" )
 	bo = random.choice([m,k,h,b,u,p])
-	cetak(nel(f'INPUT MENU SEADANYA'))
-	print(f'''{P}├── 01. ﺩﺮﻔﻣ ﻱﺪﻳﺍ {P} ({H}on{P})
+	cetak(nel(f'ﻭﻭﺮﺒﻳ ﻪﻤﺋﺎﻘﻟﺍ'))
+	print(f'''{P}├── 01. ﺩﺮﻔﻣ ﻱﺪﻳﺍ 
 ├── 02. ﺓﺩﺪﻌﺘﻣ ﺕﺎﻳﺪﻳﺍ{P} ({H}ﻞﻀﻓﻻﺍ{P})
 ├── 00. exit''')
 	___regiya___ridwan = input('\n├── input: ')
@@ -577,7 +577,7 @@ def massalx():
 	yz = 0
 	for met in range(jum):
 		yz+=1
-		kl = input(f'{P}├── ﻱﺪﻳﺍ   '+str(yz)+' : ')
+		kl = input(f'{P}├── Masukkan Id  Ke '+str(yz)+' : ')
 		uid.append(kl)
 	for userr in uid:
 		try:
